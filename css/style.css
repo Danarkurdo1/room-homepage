@@ -1,0 +1,168 @@
+:root{
+    
+    /* Primary */
+    --Dark-Gray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+body{
+    font-size: 12px !important;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 2.8rem !important;
+    line-height: .9 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 0.3rem !important;
+    letter-spacing: 5px;
+}
+
+p{
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 500 !important;
+    color: var(--Dark-Gray);
+    margin-bottom: 2rem !important;
+}
+
+
+/* Title Section */
+
+.navbar{
+    position: absolute !important;
+    width: 100%;
+    padding: 2% 4% !important;
+    z-index: 10;
+}
+
+.navbar-brand{
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    margin-right: 2rem !important;
+}
+
+.nav-link{
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 500 !important;
+    color: var(--White) !important;
+    margin: .5rem;
+}
+
+.heading-img{
+    float: left;
+    width: 64%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box-1{
+    padding: 12% 4% 4% 67% !important;
+}
+
+.shop-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'League Spartan', sans-serif !important;
+    font-weight: 700 !important;
+    color: var(--Black);
+}
+
+.shop-btn:hover{
+    color: var(--Dark-Gray);
+}
+
+.box-2{
+    padding: 6% 2% 0 !important;
+}
+
+.slide-btn-box{
+    margin-top: 26px !important;
+}
+
+.slide-btn{
+    border: none;
+    background-color: var(--Black);
+    padding: 2% !important;
+}
+
+.slide-btn:hover{
+    background-color:var(--Very-Dark-Gray);
+}
+
+@media (max-width:724px) {
+    .heading-img{
+        float: none;
+        width: 100%;
+    }
+
+    .img-1{
+        content: url(../images/mobile-image-hero-1.jpg);
+    }
+
+    .img-2{
+        content: url(../images/mobile-image-hero-2.jpg);
+    }
+
+    .img-3{
+        content: url(../images/mobile-image-hero-3.jpg);
+    }
+
+    .box-1{
+        padding: 12% 7% !important;
+    }
+
+    .box-2{
+        padding: 12% 7% !important;
+    }
+
+    .slide-btn-box{
+        margin-top: 0 !important;
+        position: relative;
+        bottom: 390px;
+        left: 412px;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+
+    .navbar-brand{
+        margin: auto !important;
+    }
+
+    .navbar-collapse{
+        background-color: var(--White) !important;
+    }
+
+    .navbar-nav{
+        flex-direction: row !important;
+        column-gap: 2rem !important;
+        padding-left: 4.4rem !important;
+    }
+
+    .nav-link{
+        color: var(--Black) !important;
+    }
+}
+
+
+
+
